@@ -24,6 +24,11 @@ Using the ApplicationHost user control involves two steps:
 These basic steps are enough to get yourself up and running.
 For a more comprehensive example, see MainForm.cs of the demo application.
 
+The demo application shows how to run a .NET application inside the application
+host. To use the demo application, download e.g. LINQPad, place it in a location
+where it can be found by the demo application and uncomment the
+StartApplication line in the MainForm_Shown method in MainForm.cs.
+
 ## Customizations
 
 ApplicationHost works by hooking into Windows and watching for newly created
