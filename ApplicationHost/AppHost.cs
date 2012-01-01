@@ -112,6 +112,8 @@ namespace ApplicationHost
             // Initialize our internal state.
 
             _isFrozen = true;
+            WindowFilters.IsFrozen = true;
+
             _windows = new Dictionary<IntPtr, WindowFilter>();
             _assemblyFile = assemblyFile;
             _filters = BuildWindowFilters();
