@@ -22,6 +22,7 @@ Using the ApplicationHost user control involves two steps:
 2. Call the StartApplication method with the path to the executable to execute.
 
 These basic steps are enough to get yourself up and running.
+For a more comprehensive example, see MainForm.cs of the demo application.
 
 ## Customizations
 
@@ -42,7 +43,7 @@ existing implementations for information on how to implement a custom WindowFilt
 
 The primary mechanism with which windows are matched is by
 [WindowStyle](http://msdn.microsoft.com/en-us/library/windows/desktop/ms632600.aspx) and
-[windowStyleEx](http://msdn.microsoft.com/en-us/library/windows/desktop/ff700543.aspx).
+[WindowStyleEx](http://msdn.microsoft.com/en-us/library/windows/desktop/ff700543.aspx).
 The easiest way to discover the styles of a window is to use
 [Spy++](http://msdn.microsoft.com/en-us/library/aa264396.aspx). This should be installed
 automatically with your Visual Studio installation.
