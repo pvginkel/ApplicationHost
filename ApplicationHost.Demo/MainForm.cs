@@ -22,7 +22,7 @@ namespace ApplicationHost.Demo
             // Place an application in a location where it can be found by
             // the demo host and uncomment the line below.
 
-            // StartApplication("Applications\\LINQPad\\LINQPad.exe");
+            StartApplication("Applications\\LINQPad\\LINQPad.exe");
         }
 
         private void StartApplication(string assemblyFile)

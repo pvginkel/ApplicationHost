@@ -1,6 +1,6 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2010
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationHost", "ApplicationHost\ApplicationHost.csproj", "{3EECA0B5-8C3F-4E17-B85F-F5698002AC28}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationHost.Demo", "ApplicationHost.Demo\ApplicationHost.Demo.csproj", "{9D72E9B8-52F1-4E30-9FB0-CBCF025B148C}"

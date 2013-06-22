@@ -248,7 +248,7 @@ namespace ApplicationHost
             WindowFilter filter;
 
             if (!_windows.TryGetValue(msg.HWnd, out filter))
-                filter = ProcessNewWindow(msg.HWnd);
+                return;
 
             if (filter != null)
                 filter.ResizeWindow(this, msg.HWnd);
